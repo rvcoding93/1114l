@@ -23,7 +23,7 @@ square_footage = length * width
 flooring_cost = square_footage * cost_per_sqft
 
 #calculate tax
-tax = cost_per_sqft * 0.07
+tax = flooring_cost * 0.07
 
 #calculate total cost
 total_cost = tax + flooring_cost
